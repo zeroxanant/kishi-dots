@@ -1,216 +1,97 @@
-# 🎨 Arch Linux Hyprland - Gruvbox Theme
+# 🎨 kishi-dots - Your Cozy Arch Linux Setup
 
-![Desktop](Galeri/home.jpeg)
+[![Download kishi-dots](https://img.shields.io/badge/Download_kishi--dots-v1.0-blue.svg)](https://github.com/zeroxanant/kishi-dots/releases)
 
-> **[TR]** Arch Linux üzerinde Hyprland pencere yöneticisi için hazırladığım, tamamen Gruvbox renk paletine sadık, performanslı ve animasyonlu yapılandırma dosyaları (Dotfiles).
->
-> **[EN]** My personal, fully Gruvbox-themed, performance-oriented, and animated configuration files (Dotfiles) for Hyprland on Arch Linux.
+## 📦 Introduction
 
----
+Welcome to **kishi-dots**! This project includes my personal configuration files for Arch Linux and Hyprland, styled with a cozy Gruvbox theme. These dotfiles will help you achieve a clean and aesthetic desktop environment. It's perfect for anyone looking to customize their Linux experience without deep technical skills.
 
-![Desktop](Galeri/home.jpeg)
+## 🚀 Getting Started
 
-> **[TR]** Arch Linux üzerinde Hyprland pencere yöneticisi için hazırladığım, tamamen Gruvbox renk paletine sadık, performanslı ve animasyonlu yapılandırma dosyaları (Dotfiles).
->
-> **[EN]** My personal, fully Gruvbox-themed, performance-oriented, and animated configuration files (Dotfiles) for Hyprland on Arch Linux.
+This section will guide you through downloading and setting up the kishi-dots configuration. No prior knowledge is necessary. Just follow the steps below.
 
----
+## 📥 Download & Install
 
-## 🇹🇷 Türkçe (Turkish)
+To download and install kishi-dots, visit the releases page and get the latest version of the application:
 
+[Visit this page to download](https://github.com/zeroxanant/kishi-dots/releases)
 
-### ✨ Özellikler
+### Step 1: Download the Files
 
-* **Pencere Yöneticisi:** Hyprland (Animasyonlu ve akıcı)
-* **Panel:** Waybar (Gruvbox temalı, yüzen modüller)
-* **Terminal:** Kitty + Zsh + Starship
-* **Menü:** Rofi (Uygulama başlatıcı ve pencere geçişi)
-* **Kilit Ekranı:** Hyprlock (Müzik widget'lı ve resimli)
-* **Duvar Kağıdı:** Waypaper + SWWW (Animasyonlu geçişler)
-* **Diğer:** Wlogout (Çıkış menüsü), SwayNC (Bildirim merkezi), Hypridle (Otomatik kilit)
+1. Open the link above.
+2. Look for the latest version available.
+3. Click on the version number to see all download options.
+4. Download the `.zip` or `.tar.gz` file that includes the dotfiles.
 
+### Step 2: Extract the Files
 
-### 🎛️ Kishi Settings (Ayarlar Uygulaması)
+Once your download is complete:
 
-Hyprland ve 10+ uygulama için tam Gruvbox teması, dinamik light/dark mod, duvar kağıdı ile otomatik tema, gelişmiş ayarlar ve daha fazlası!
+1. Locate the downloaded file in your computer's Downloads folder.
+2. Right-click on the file and select "Extract Here" or use an appropriate extraction tool.
+3. You will see a new folder with the contents of kishi-dots.
 
-**Başlıca Özellikler:**
+### Step 3: Configure Your System
 
-* 🎨 Tüm uygulamalara (Hyprland, Waybar, Rofi, Kitty, Wlogout, SwayNC, Hyprlock, Fastfetch, GTK, Powermenu...) otomatik tema
-* 🌗 Dinamik light/dark mod (duvar kağıdına göre, kalıcı, anında değiştirilebilir)
-* 🖼️ Waypaper entegrasyonu: Duvar kağıdı değişince tema otomatik uygulanır, light/dark toggle ile anında mod değişimi
-* 🧩 Kendi arayüzünü de temalandırır (Libadwaita override, light mode metin görünürlüğü)
-* 🗂️ Workspace yönetimi: Hyprland çalışma alanlarını ve monitörleri kolayca düzenle
-* ⚡ Duvar kağıdı önbelleği: Hızlı küçük resimler, uygulama başında otomatik temizleme
-* 🪟 Toggle penceresi için windowrules: Her zaman üstte, sabit boyut, doğru konum
-* 💾 Kalıcı ayarlar (JSON): Son duvar kağıdı, mod, tercihler kaydedilir
-* 🆕 **Yeni:** $mainMod+ALT+S ile Kishi Settings'i hızlı başlat (Hyprland keybind)
+To apply these dotfiles:
 
-
-### 🚧 Gelecek Özellikler
-
-**Kishi Settings için planlananlar:**
-
-
-* [x] **Tema Yöneticisi:** Farklı Gruvbox varyantları arasında geçiş (Dark/Light/Soft) *(Light/Dark mod ve otomatik tema uygulama tamamlandı)*
-* [x] **Animasyon Ayarları:** Pencere animasyonlarını özelleştirme *(Kishi Settings üzerinden temel animasyon ayarları yapılabiliyor)*
-* [x] **Workspace Yönetimi:** Workspace düzeni ve davranışlarını ayarlama *(Kishi Settings'te temel workspace yönetimi var)*
-* [x] **Pencere Kuralları:** Uygulamalara özel pencere davranışları tanımlama *(windowrules.conf ile temel kurallar mevcut)*
-* [x] **Kısayol Düzenleyici:** Yeni kısayollar ekleme ve düzenleme *(README ve binds.conf ile kolay ekleme)*
-* [ ] **Waybar Özelleştirme:** Modül görünürlüğü ve konumları
-* [ ] **Monitör Ayarları:** Çoklu monitör yapılandırması
-* [ ] **Başlangıç Uygulamaları:** Autostart uygulamalarını yönetme
-* [ ] **Yedekleme/Geri Yükleme:** Ayarları yedekleme ve geri yükleme
-* [ ] **Profil Yönetimi:** Farklı kullanım senaryoları için profiller
-
-**Genel yapılandırma geliştirmeleri:**
-
-* [ ] **Rofi Temaları:** Daha fazla Rofi tema seçeneği
-* [ ] **Duvar Kağıdı Koleksiyonu:** Genişletilmiş Gruvbox duvar kağıdı seti
-* [ ] **Hyprlock Widget'ları:** Hava durumu ve sistem bilgisi widget'ları
-* [ ] **SwayNC Temaları:** Özelleştirilmiş bildirim görünümleri
-
----
-
-## ⌨️ Hızlı Kısayollar
-
-* **Kishi Settings'i aç:** `$mainMod+ALT+S` (Hyprland keybind)
-* **Light/Dark mod toggle:** Waypaper veya Kishi Settings üzerinden
-* **Tema otomasyonu:** Duvar kağıdı değişince otomatik tema
-
----
-
-## 🛠️ Gereksinimler ve Kurulum
-
-Bu yapılandırmayı kullanmak için aşağıdaki paketlerin sisteminizde yüklü olması gerekir (Arch Linux / Yay):
-
-
-### Araçlar & Görünüm
-
-```bash
-yay -S hyprland waybar rofi-wayland kitty swww waypaper swaync wlogout hyprlock hypridle
-yay -S starship fastfetch grim slurp swappy cliphist thunar nwg-look ttf-jetbrains-mono-nerd
-yay -S gruvbox-dark-gtk-theme gruvbox-plus-icon-theme-git bibata-cursor-theme
-```
-
-### Kishi Settings için ek Python bağımlılıkları
-
-```bash
-yay -S python python-pip python-pillow python-scikit-learn python-gobject
-pip install --user pillow scikit-learn pygobject
-```
-```
-
-
-### 🚀 Kurulum Adımları
-
-1. Bu repoyu indirin:
-   ```bash
-   git clone https://github.com/ozhangebesoglu/kishi-dots.git
-   cd kishi-dots
+1. Open a terminal window.
+2. Navigate to the extracted folder using the `cd` command. For example:
    ```
-2. Config dosyalarını `.config` klasörünüze kopyalayın:
-   ```bash
-   cp -r Config/* ~/.config/
+   cd ~/Downloads/kishi-dots
    ```
-3. Duvar kağıtlarını Resimler klasörüne taşıyın ve Waypaper ile seçin.
-4. Kishi Settings uygulamasını başlatmak için:
-   ```bash
-   cd Kishi-Settings
-   python main.py
+3. Copy the dotfiles to your home directory. You can usually do this with the following command:
    ```
+   cp -r ./.config/* ~/.config/
+   ```
+4. Carefully read any additional setup instructions provided in the folder. Often, there are README files that guide you through specific configurations.
 
----
+### Step 4: Start Using kishi-dots
 
+With everything in place:
 
----
+1. Restart your session to see the changes take effect.
+2. Customize further as you like, based on your personal preferences.
 
-## 🇬🇧 English
+## 📜 Features
 
-### ✨ Features
+kishi-dots includes a variety of features to enhance your Arch Linux experience:
 
-* **Window Manager:** Hyprland (Animated, smooth)
-* **Bar:** Waybar (Gruvbox themed, floating modules)
-* **Terminal:** Kitty + Zsh + Starship
-* **Menu:** Rofi (App launcher and window switcher)
-* **Lock Screen:** Hyprlock (With music widget and artwork)
-* **Wallpaper:** Waypaper + SWWW (Animated transitions)
-* **Other:** Wlogout (logout menu), SwayNC (notification center), Hypridle (auto lock)
+- **Aesthetic Themes**: Enjoy the cozy Gruvbox theme designed for comfort and readability.
+- **Fast Configuration**: Quick setup with minimal effort, allowing users to transform their desktop easily.
+- **Integrated Tools**: Compatibility with popular tools like `fastfetch`, `rofi`, `waybar`, and more for a complete workflow.
 
-### 🎛️ Kishi Settings (Settings App)
+## 🖥️ Requirements
 
-* 🎨 Automatic Gruvbox theming for all apps (Hyprland, Waybar, Rofi, Kitty, Wlogout, SwayNC, Hyprlock, Fastfetch, GTK, Powermenu...)
-* 🌗 Dynamic light/dark mode (auto, persistent, instant toggle)
-* 🖼️ Waypaper integration: Theme auto-applies on wallpaper change, instant light/dark toggle
-* 🧩 Self-theming UI (Libadwaita override, light mode text contrast)
-* 🗂️ Workspace management: Easily organize Hyprland workspaces and monitors
-* ⚡ Wallpaper cache: Fast thumbnails, auto-clean on app start
-* 🪟 Windowrules for toggle window: Always on top, fixed size, correct position
-* 💾 Persistent settings (JSON): Last wallpaper, mode, preferences saved
-* 🆕 **New:** Launch Kishi Settings instantly with `$mainMod+ALT+S` (Hyprland keybind)
+To use kishi-dots effectively, ensure you have the following:
 
-### 🚧 Roadmap
+- **Operating System**: A recent version of Arch Linux.
+- **Desktop Environment**: Hyprland.
+- **Required Software**: Various utilities like `zsh`, `starship`, and `hyprlock` may enhance your experience.
 
-**Planned for Kishi Settings:**
+## 🎨 Customization
 
-* [x] **Theme Manager:** Switch between Gruvbox variants (Dark/Light/Soft) *(Light/Dark mode and auto theme apply done)*
-* [x] **Animation Settings:** Customize window animations *(Basic animation settings available in Kishi Settings)*
-* [x] **Workspace Management:** Configure workspace layouts and behaviors *(Basic workspace management in Kishi Settings)*
-* [x] **Window Rules:** Define app-specific window behaviors *(windowrules.conf provides basic rules)*
-* [x] **Keybind Editor:** Add and edit custom keybindings *(Easy add via README and binds.conf)*
-* [ ] **Waybar Customization:** Module visibility and positioning
-* [ ] **Monitor Settings:** Multi-monitor configuration
-* [ ] **Startup Applications:** Manage autostart apps
-* [ ] **Backup/Restore:** Backup and restore settings
-* [ ] **Profile Management:** Profiles for different use cases
+Feel free to explore additional customization options. You can modify configuration files to suit your needs further. Many users enjoy editing themes, changing fonts, or adding essential tools.
 
-**General configuration improvements:**
+If you wish to learn how to customize specific components, the community offers numerous resources and forums where users share their experiences and tips.
 
-* [ ] **Rofi Themes:** More Rofi theme options
-* [ ] **Wallpaper Collection:** Extended Gruvbox wallpaper set
-* [ ] **Hyprlock Widgets:** Weather and system info widgets
-* [ ] **SwayNC Themes:** Custom notification appearances
-* [ ] **Audio/Brightness OSD:** Custom on-screen display design
-* [ ] **Waybar Modules:** Additional modules like music player, system monitor
+## 🧑‍🤝‍🧑 Community
 
+Join the community of kishi-dots users. Share your setup, ask questions, or provide feedback.
 
----
+- Discussions about themes and configurations can often be found on platforms like Reddit, Discord, or GitHub discussions.
+- Don't hesitate to reach out if you have suggestions or ideas for future updates.
 
----
+## 🗺️ Future Updates
 
+I plan to keep kishi-dots updated with new features, themes, and customizations. Make sure to check back regularly for new releases and updates.
 
+## 🔗 Additional Resources
 
-### 🖼️ Gallery / Galeri
+For a deeper understanding and tips about the tools used in kishi-dots, consider exploring:
 
-#### Masaüstü & Terminal
-| Masaüstü | Terminal (Kitty) | Light Mode | Dark Mode |
-| :---: | :---: | :---: | :---: |
-| ![Desktop](Galeri/home.jpeg) | ![Kitty](Galeri/kitty.png) | ![Light](Galeri/lightmode.png) | ![Dark](Galeri/darkmode.png) |
+- [Arch Linux Documentation](https://wiki.archlinux.org/)
+- [Hyprland Official Site](https://hyprland.github.io/)
+- [Gruvbox Theme Details](https://github.com/morhetz/gruvbox)
 
-#### Terminal Temaları
-| Light Terminal | Dark Terminal |
-| :---: | :---: |
-| ![Light Terminal](Galeri/lightmodeterminal.png) | ![Dark Terminal](Galeri/darkmodeterminal.png) |
-
-#### Menüler & Arayüz
-| Rofi Launcher | Bildirim Merkezi | Wlogout | Ayarlar | Arama |
-| :---: | :---: | :---: | :---: | :---: |
-| ![Rofi](Galeri/search.jpeg) | ![Notification](Galeri/notification.jpeg) | ![Wlogout](Galeri/wlogout.png) | ![Settings](Galeri/settings.png) | ![3](Galeri/3.png) |
-
-#### Kilit Ekranı
-| Lock Screen | Lock Screen (Alternatif) |
-| :---: | :---: |
-| ![Lock Screen](Galeri/lockscreen.jpeg) | ![Lock](Galeri/lock.jpeg) |
-
-#### Genel Görünüm
-| Genel Görünüm |
-| :---: |
-| ![Photo](Galeri/photo.jpeg) |
-
-#### Video
-| Demo |
-| :---: |
-| <img src="Galeri/video.mp4" width="400"/> |
-
-**Author:** Özhan  
-**License:** MIT
+Feel free to dive in, explore, and enjoy your newly customized desktop with kishi-dots!
